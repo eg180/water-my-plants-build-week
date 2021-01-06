@@ -4,8 +4,9 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import styled from "styled-components"
-import Header from "./Header"
+import styled from "styled-components";
+import Header from "./Header";
+import SignIn from "./SignIn";
 
 
 
@@ -13,8 +14,9 @@ const LandingPage = () => {
 
     return (
         <>
-        <Header />
         <h2>Get savvy with watering your plants!</h2>
+    
+
 
         </>
     )
