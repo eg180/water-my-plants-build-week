@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const StyledHeader = styled.header`
     display: flex;
@@ -18,7 +19,7 @@ function Header() {
                     <p id="logo">Water My Plants</p>
                 </div>
                 <div>
-                    <p>SIGN IN</p>
+                    <Link to="/signin"><p>SIGN IN</p></Link>
                 </div>
             </StyledHeader>
     )
